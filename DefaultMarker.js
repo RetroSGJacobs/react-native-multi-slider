@@ -51,9 +51,9 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.2,
       },
       android: {
-        height: 12,
-        width: 12,
-        borderRadius: 12,
+        height: 20,
+        width: 20,
+        borderRadius: 10,
         backgroundColor: '#0D8675',
       },
     }),
@@ -62,8 +62,8 @@ const styles = StyleSheet.create({
     ...Platform.select({
       ios: {},
       android: {
-        height: 20,
-        width: 20,
+        height: 25,
+        width: 25,
         borderRadius: 20,
       },
     }),
